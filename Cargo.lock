@@ -234,7 +234,7 @@ dependencies = [
 
 [[package]]
 name = "burn-central"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "burn-central-core",
  "burn-central-macros",
@@ -243,22 +243,23 @@ dependencies = [
 
 [[package]]
 name = "burn-central-client"
-version = "0.3.0"
+version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8d4c1885e92190f752ac53f8d7a6451e70bd6d66d3ecb3fbfdc541e50bcf7605"
+checksum = "7e8cde4b796096c370e50928a2d6fdc498552657b525e2c13a23a128572c26ec"
 dependencies = [
  "reqwest",
  "serde",
  "serde_json",
  "strum",
  "thiserror 2.0.17",
+ "tracing",
  "tungstenite",
  "uuid",
 ]
 
 [[package]]
 name = "burn-central-core"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "anyhow",
  "burn",
@@ -281,7 +282,7 @@ dependencies = [
 
 [[package]]
 name = "burn-central-macros"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -293,7 +294,7 @@ dependencies = [
 
 [[package]]
 name = "burn-central-runtime"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "anyhow",
  "burn",
@@ -3767,7 +3768,7 @@ checksum = "9edde0db4769d2dc68579893f2306b26c6ecfbe0ef499b013d731b7b9247e0b9"
 
 [[package]]
 name = "xtask"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "log",
  "tracel-xtask",
